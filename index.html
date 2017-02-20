@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<div>这是一个盒子</div>
+	<button>按钮</button>
+	<script>
+	var dv=document.querySelector("div");
+		document.querySelector("button").addEventListener('click', function(){
+			dv.style.width="40px"
+			dv.style.height="40px"
+			dv.style.backgroundColor="blue"
+		})
+	</script>
+</body>
+</html>
